@@ -2,7 +2,7 @@ let cars = [
     {
         id: 1,
         brand: "chevrolet",
-        model: "no se",
+        model: "Optra",
         color: "azul",
         year: "2005",
         price: 20000 
@@ -10,7 +10,7 @@ let cars = [
     {
         id: 2,
         brand: "toyota",
-        model: "no se",
+        model: "Hilux",
         color: "verde",
         year: "2009",
         price: 30000 
@@ -18,7 +18,7 @@ let cars = [
     {
         id: 3,
         brand: "Renaut",
-        model: "no se",
+        model: "Megane",
         color: "negro",
         year: "2001",
         price: 15000 
@@ -69,6 +69,4 @@ function remove(id){
     printCars();
 }
 
-printCars();
-remove(2);
 printCars();
